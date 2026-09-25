@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f4d500">
+<title>Golden Capsules | अपनी जिंदगी में फिर से आत्मविश्वास</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f4d600;
+  color:#111;
+}
+.page{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:12px 12px 32px;
+  background:
+    radial-gradient(circle at 50% 10%,rgba(255,255,255,.30),transparent 30%),
+    linear-gradient(180deg,#fff000 0%,#f5dc00 48%,#e9ca00 100%);
+}
+.hero{
+  width:min(100%,760px);
+  background:#f5df00;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 15px 40px rgba(63,48,0,.25);
+}
+.hero img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+.message{
+  width:min(100%,760px);
+  text-align:center;
+  padding:18px 12px 8px;
+}
+.message h1{
+  margin:0;
+  font-size:clamp(24px,5vw,38px);
+  line-height:1.12;
+  font-weight:900;
+}
+.message h1 span{
+  display:inline-block;
+  background:#111;
+  color:#ffe900;
+  padding:6px 12px;
+  margin-top:5px;
+  border-radius:6px;
+}
+.message p{
+  margin:12px auto 0;
+  max-width:680px;
+  font-size:clamp(16px,3.4vw,21px);
+  line-height:1.45;
+  font-weight:700;
+}
+.cta-wrap{
+  width:min(100%,760px);
+  margin-top:14px;
+}
+.cta{
+  display:block;
+  width:100%;
+  padding:18px 16px;
+  border-radius:14px;
+  background:linear-gradient(#111,#000);
+  color:#ffe900;
+  text-decoration:none;
+  text-align:center;
+  font-size:clamp(21px,4vw,32px);
+  line-height:1.15;
+  font-weight:900;
+  box-shadow:0 7px 0 #8b7500,0 15px 28px rgba(0,0,0,.25);
+  transition:.18s ease;
+}
+.cta small{
+  display:block;
+  margin-top:7px;
+  color:#fff;
+  font-size:clamp(12px,2.5vw,15px);
+  font-weight:700;
+}
+.cta:hover{transform:translateY(-2px)}
+.cta:active{
+  transform:translateY(4px);
+  box-shadow:0 3px 0 #8b7500,0 8px 15px rgba(0,0,0,.2);
+}
+.trust{
+  width:min(100%,760px);
+  margin-top:20px;
+  padding:15px 12px;
+  border:2px solid rgba(0,0,0,.18);
+  border-radius:12px;
+  background:rgba(255,247,150,.38);
+  text-align:center;
+}
+.trust strong{
+  display:block;
+  font-size:18px;
+  margin-bottom:5px;
+}
+.trust p{
+  margin:0;
+  font-size:13px;
+  line-height:1.45;
+  color:#463b00;
+}
+@media(max-width:600px){
+  .page{padding:0 0 24px}
+  .hero{width:100%;border-radius:0;box-shadow:none}
+  .message,.cta-wrap,.trust{width:calc(100% - 24px)}
+  .message{padding-top:17px}
+}
+</style>
+</head>
+<body>
+<main class="page">
+
+  <section class="hero">
+    <img
+      src="golden-capsules-creative.png"
+      alt="Golden Capsules promotional creative">
+  </section>
+
+  <section class="message">
+    <h1>
+      रिश्ते में आत्मविश्वास रखें…
+      <br>
+      <span>अपनी निजी जिंदगी को बेहतर समझें</span>
+    </h1>
+    <p>
+      कई बार तनाव, थकान और बदलती लाइफस्टाइल का असर निजी जीवन के आत्मविश्वास पर भी पड़ सकता है।
+      अपनी जरूरतों को समझना और सही जानकारी लेना पहला कदम है।
+    </p>
+  </section>
+
+  <section class="cta-wrap">
+    <a class="cta" href="offer.html">
+      पूरा तरीका जानें
+      <small>अपनी निजी जिंदगी और आत्मविश्वास से जुड़ी जानकारी देखें →</small>
+    </a>
+  </section>
+
+  <section class="trust">
+    <strong>अपनी सेहत को नजरअंदाज न करें</strong>
+    <p>
+      किसी भी आयुर्वेदिक/हर्बल उत्पाद का उपयोग करने से पहले लेबल पर दी गई जानकारी पढ़ें
+      और अपनी व्यक्तिगत स्थिति के अनुसार योग्य स्वास्थ्य विशेषज्ञ से सलाह लें।
+    </p>
+  </section>
+
+</main>
+</body>
+</html>
